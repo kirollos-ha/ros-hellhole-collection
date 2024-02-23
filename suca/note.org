@@ -1,0 +1,61 @@
+serve il messaggio curvature_throttle.msg e serve anche la posa da slam
+
+serve che posa e traiettoria calcolata con la posa arrivino abbastanza insieme
+magari fotti malamamente il codice di ~approximateTimeSynchronizer~ dalla repo di trajectory che ha fatto ema
+perchè se arrivano scoordinate so' cazzi.
+
+* TODO Impalcatura
+parte ros input
+ - riceve curvature_throttle da trajectory
+ - riceve pose da slam
+
+roba in mezzo che so' cazzi di dragos <3   
+(definisci la callback, poi cosa faccia la callback cazzo di chi lo sa)
+ci fa robe
+inizializziamo pure pursuit
+inizializziamo il pid
+
+parte ros output
+ - manda agli attuatori il throttle (quanto gas/freno stiamo dando)
+ - manda agli attuatori lo sterzo
+   
+io per questa farei
+ - crei un oggetto che contiene i publisher per gli attuatori
+ - nel metodo della callback fai un bel
+   #+BEGIN_SRC c++
+     class Something {
+     public:
+	 Something(ros::Publisher<boh> throttle, ros::Publisher<bah> sterzo)
+	     :throttle_pub(throttle), sterzo_pub(sterzo) {}
+
+	 ~Something() {
+	     // ho fatto troppo java per ricordarmi come si scrive un destructor
+	 }
+
+	 void la_parte_che_ci_interessa(messaggio curvature_throttle, messaggio posa) {
+	     cazzi_di dragos = "hic sunt cazzi di dragos";
+	     cazzi_di antonio = "hic sunt cazzi di antonio";
+
+	     publish_throttle(dragos);
+	     publish_sterzo(antonio);
+	 }
+     private:
+	 ros::Publisher<boh> throttle_pub;
+	 ros::Publisher<bah> sterzo_pub;
+
+	 void publish_throttle(roba) {
+	     throttle_pub.sticazzi(roba);
+	 }
+
+	 void pubhlish_sterzo(roba) {
+	     sterzo_pub.publish(roba);
+	 }
+     }
+
+   #+END_SRC
+   
+* Cristo
+per quanto riguarda i getparam di ros al momento faccio le variabili a parte per essere tutto figo e bellino e company
+il getparam quando cazzo avrò voglia
+
+
