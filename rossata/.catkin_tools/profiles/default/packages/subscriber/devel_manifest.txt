@@ -1,0 +1,6 @@
+subscriber
+/home/kite/ros-hellhole-collection/rossata/devel/.private/subscriber/cmake.lock /home/kite/ros-hellhole-collection/rossata/devel/./cmake.lock
+/home/kite/ros-hellhole-collection/rossata/devel/.private/subscriber/lib/pkgconfig/subscriber.pc /home/kite/ros-hellhole-collection/rossata/devel/lib/pkgconfig/subscriber.pc
+/home/kite/ros-hellhole-collection/rossata/devel/.private/subscriber/lib/subscriber/subscriber_node /home/kite/ros-hellhole-collection/rossata/devel/lib/subscriber/subscriber_node
+/home/kite/ros-hellhole-collection/rossata/devel/.private/subscriber/share/subscriber/cmake/subscriberConfig-version.cmake /home/kite/ros-hellhole-collection/rossata/devel/share/subscriber/cmake/subscriberConfig-version.cmake
+/home/kite/ros-hellhole-collection/rossata/devel/.private/subscriber/share/subscriber/cmake/subscriberConfig.cmake /home/kite/ros-hellhole-collection/rossata/devel/share/subscriber/cmake/subscriberConfig.cmake

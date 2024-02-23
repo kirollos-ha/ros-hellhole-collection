@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>subscriber</name>
+  <version>0.0.0</version>
+  <license>WTFPL</license>
+  <description>Error Handler</description>
+  <maintainer email="esempio@quello.com">FRT</maintainer>
+
+  <depend>roscpp</depend> 
+
+  <depend>std_msgs</depend> 
+  <depend>driverless_msgs</depend> 
+  <depend>message_runtime</depend> 
+
+
+  <build_export_depend>message_generation</build_export_depend>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export> </export>
+</package>

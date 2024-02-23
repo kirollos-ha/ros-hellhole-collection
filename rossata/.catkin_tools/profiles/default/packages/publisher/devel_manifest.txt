@@ -1,0 +1,6 @@
+publisher
+/home/kite/ros-hellhole-collection/rossata/devel/.private/publisher/cmake.lock /home/kite/ros-hellhole-collection/rossata/devel/./cmake.lock
+/home/kite/ros-hellhole-collection/rossata/devel/.private/publisher/lib/publisher/publisher_node /home/kite/ros-hellhole-collection/rossata/devel/lib/publisher/publisher_node
+/home/kite/ros-hellhole-collection/rossata/devel/.private/publisher/lib/pkgconfig/publisher.pc /home/kite/ros-hellhole-collection/rossata/devel/lib/pkgconfig/publisher.pc
+/home/kite/ros-hellhole-collection/rossata/devel/.private/publisher/share/publisher/cmake/publisherConfig-version.cmake /home/kite/ros-hellhole-collection/rossata/devel/share/publisher/cmake/publisherConfig-version.cmake
+/home/kite/ros-hellhole-collection/rossata/devel/.private/publisher/share/publisher/cmake/publisherConfig.cmake /home/kite/ros-hellhole-collection/rossata/devel/share/publisher/cmake/publisherConfig.cmake

@@ -1,0 +1,3 @@
+/home/kite/ros/tutorial/devel/./cmake.lock 27
+/home/kite/ros/filter/devel/./cmake.lock 59
+/home/kite/ros-hellhole-collection/rossata/devel/./cmake.lock 16

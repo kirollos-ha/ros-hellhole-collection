@@ -1,0 +1,19 @@
+serve il messaggio curvature_throttle.msg e serve anche la posa da slam
+
+serve che posa e traiettoria calcolata con la posa arrivino abbastanza insieme
+magari fotti malamamente il codice di ~approximateTimeSynchronizer~ dalla repo di trajectory che ha fatto ema
+perchè se arrivano scoordinate so' cazzi.
+
+* TODO Impalcatura
+parte ros input
+ - riceve curvature_throttle da trajectory
+ - riceve pose da slam
+
+roba in mezzo che so' cazzi di dragos <3   
+ci fa robe
+inizializziamo pure pursuit
+inizializziamo il pid
+
+parte ros output
+ - manda agli attuatori il throttle (quanto gas/freno stiamo dando)
+ - manda agli attuatori lo sterzo
